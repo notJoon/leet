@@ -26,12 +26,10 @@ import unittest
 
 class Test(unittest.TestCase):
     def test_example_1(self):
-        msg = 'this return False'
-        self.assertFalse(isThree(2), msg)
+        self.assertFalse(isThree(2))
     
     def test_example_2(self):
-        msg = 'this return True'
-        self.assertTrue(isThree(4), msg)
+        self.assertTrue(isThree(4))
 
 
 
