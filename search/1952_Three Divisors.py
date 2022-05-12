@@ -32,6 +32,5 @@ class Test(unittest.TestCase):
         self.assertTrue(isThree(4))
 
 
-
 if __name__ == '__main__':
     unittest.main()
